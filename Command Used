@@ -1,0 +1,5 @@
+To unhash using Md5
+hashcat -m 0 -a 0 <Hashed Text> <Password Dump>
+To unhash using Brute Force Algorithm (Only use when we have password pattern in mind)
+hashcat -m 0 -a 3 <Hashed Text> <Password Pattern>
+Password Pattern is in the form ?d where one ?d means 1 character
